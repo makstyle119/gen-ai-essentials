@@ -16,7 +16,68 @@ this include:
 **Note:** Al's Goal is to interpret, analyze and response to human actions.To simulate human intelligence in machine.
 
 **Q2- What Is ML - (Machine Learning) ?** <br />
-**A2-** Machine that get better at a task without explicit programming.
+**A2-** Machine that get better at a task without explicit programming. <br />
+there are few types of machine learning:
+- Types of Machine Learning
+    - Learning Problem
+        - Supervised Learning
+            - using a model to learn a mapping between input examples and the target output.
+        - Unsupervised Learning
+            - using a model to describe or extract relationships in data.
+        - Reinforcement Learning
+            - an agent operates in an environment and must learn to operate using feedback.
+    - Hybrid Learning
+        - Semi-Supervised Learning
+            - training a model to learn from both labeled and unlabeled data.
+        - Self-Supervised Learning
+            - farmed as supervised learning problem in order to apply supervised learning algorithms.
+        - Multi-Instance Learning
+            - individual examples are unrelated, instead, bags or group of samples are labeled.
+    - Statistical Interface
+        - Inductive Learning
+            - using evidence to determine the outcome.
+        - Deductive Learning
+            - using general rules to determine the outcome.
+        - Transductive Learning
+            - using statistical learning theory to determine the outcome.
+    - Learning Techniques
+        - Multi-Task
+            - fitting a single model to multiple tasks.
+        - Transfer Learning
+            - learning from a model trained on related tasks.
+        - Active
+            - model able to query human like in learning process.
+        - Online
+            - learning while data is being collected.
+        - Esemble
+            - multiple models trained together.
+- Division Of Machine Learning
+    - Classified Machine Learning
+        - Supervised Machine Learning
+            - here we have data with labels.
+                - here we will first provide label data then provide unlabeled data to model can label it.
+            - we use 2 method to do supervised learning:
+                - Classification
+                - Regression
+        - Unsupervised Machine Learning
+            - here we have data without labels.
+            - We use 2 method to do unsupervised learning:
+                - Clustering
+                - Association
+                - Dimensionality Reduction
+        - **Note:** Supervised Learning is more accurate than Unsupervised Learning, also unsupervised learning need human validation to validate results.
+    - Reinforcement Machine Learning
+        - Real Time Decision
+        - Game AI
+        - Learning Tasks
+        - Robot Navigation
+    - Ensemble Machine Learning
+        - Bagging 
+        - Boosting
+        - Stacking
+    - Neural Network And Deep Learning
+        - Convolutional Neural Network (CNN)
+        - Recurrent Neural Network (RNN)
 
 **Q3- What Is DL - (Deep Intelligence) ?** <br />
 **A3-** Means a Machine which can perform tasks like human / mimic human behavior.
@@ -47,3 +108,20 @@ there are various algorithms for regression.
 
 **Q7- What Is vector and error in regression ?** <br />
 **A7-** **vector** is a line that connects two points. **error** is the distance between the actual value and the predicted value.
+
+**Q8- What is Classification ?** <br />
+**A8- Classification** is a process of finding a function to divide a labeled dataset into classes/categories. <br />
+there are few classification algorithms:
+- Logistic Regression
+- Decision Trees/Random Forest
+- Neural Bayes
+- K-Nearest Neighbors (KNN)
+- Support Vector Machines (SVM)
+
+**Q9- What is Clustering ?** <br />
+**A9- Clustering** is a process of grouping similar unlabeled data points together. <br />
+there are few clustering algorithms:
+- K-Means
+- K-Medoids
+- Density Based
+- Hierarchical Clustering
