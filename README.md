@@ -22,10 +22,22 @@ there are few types of machine learning:
     - Learning Problem
         - Supervised Learning
             - using a model to learn a mapping between input examples and the target output.
+            - **usage**
+                - when labels are available and you want precise outcome.
+                - when you need a specific value return.
         - Unsupervised Learning
             - using a model to describe or extract relationships in data.
+            - **usage**
+                - when labels are not available and you don't want precise outcome.
+                - when you are trying to make sense of data.
         - Reinforcement Learning
             - an agent operates in an environment and must learn to operate using feedback.
+            - **usage**
+                - when you want to simulate human behavior.
+                    - Game AI
+                    - Learning Tasks
+                    - Robot Navigation
+            <!-- - **note:** you need to provide reward for the agent to learn. -->
     - Hybrid Learning
         - Semi-Supervised Learning
             - training a model to learn from both labeled and unlabeled data.
@@ -58,13 +70,49 @@ there are few types of machine learning:
                 - here we will first provide label data then provide unlabeled data to model can label it.
             - we use 2 method to do supervised learning:
                 - Classification
+                    - classification is a process of finding a function to divide a dataset into classes/categories.
+                        - **Classification Algorithm**
+                            - Logistic Regression
+                            - K-Nearest Neighbors (KNN)
+                            - Support Vector Machines (SVM)
+                            - Kernel SVM
+                            - Naive Bayes
+                            - Decision Trees Classification
+                            - Random Forest Classification
                 - Regression
+                    - Regression is a process of finding a function to correlate a dataset into continuous values.
+                        - **Regression Algorithm**
+                            - Simple Liner Regression
+                            - Multiple Liner Regression
+                            - Polynomial Regression
+                            - Support Vector Regression (SVR)
+                            - Decision Tree Regression
+                            - Random Forest Regression
         - Unsupervised Machine Learning
             - here we have data without labels.
             - We use 2 method to do unsupervised learning:
                 - Clustering
+                    - Clustering is a process of grouping similar unlabeled data points together.
+                        - **Clustering Algorithm**
+                            - K-Means
+                            - DBScan
+                            - K-Medoids
                 - Association
+                    - Association is a process of finding patterns in data.
+                        - **Association Algorithm**
+                            - Apriori
+                            - Euclat
+                            - FP-Growth
                 - Dimensionality Reduction
+                    - Dimensionality Reduction is a process of reducing the number of features in a dataset.
+                        - **Dimensionality Reduction Algorithm**
+                            - Principal Component Analysis (PCA)
+                            - Linear Discriminant Analysis (LDA)
+                            - Generalized Discriminant Analysis (GDA)
+                            - Singular Value Decomposition (SVD)
+                            - Latent Decrease Analysis (LDA)
+                            - Latent Semantic Analysis (LSA, pLSA, GLSA)
+                            - t-SNE
         - **Note:** Supervised Learning is more accurate than Unsupervised Learning, also unsupervised learning need human validation to validate results.
     - Reinforcement Machine Learning
         - Real Time Decision
@@ -76,6 +124,8 @@ there are few types of machine learning:
         - Boosting
         - Stacking
     - Neural Network And Deep Learning
+        - Neural Network (NN)
+            - often describe as mimicking the human brain, a neuron/node represents an algorithm for processing information. Data flow through the network. and based on the input, the output is calculated. and may have multiple layers.
         - Convolutional Neural Network (CNN)
         - Recurrent Neural Network (RNN)
 
