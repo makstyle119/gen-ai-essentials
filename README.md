@@ -126,6 +126,30 @@ there are few types of machine learning:
     - Neural Network And Deep Learning
         - Neural Network (NN)
             - often describe as mimicking the human brain, a neuron/node represents an algorithm for processing information. Data flow through the network. and based on the input, the output is calculated. and may have multiple layers.
+            - if any neural network have 3 or more then 3 hidden layers it's deep learning otherwise simple neural network.
+            - **note:** Deep Learning is a subset of Machine Learning.
+            - Neural Network have few things:
+                - Feed Forward Neural Network (FNN)
+                    - always move forward.
+                - backpropagation (BP)
+                    - move backward to adjust the weight to improve the outcome. this is how a neural network learn.
+                - Loss Function
+                    - function to compare the predicted value with the actual value. (how bad is the prediction)
+                - Activation Function
+                    - function to calculate the predicted value. (how good is the prediction)
+                - Dense
+                    - layer of neurons increase.
+                - Sparse
+                    - layer of neurons decrease.
+            - In Deep Learning, we use:
+                - Supervised Learning
+                    - Fully-connected Feed Forward (FNN)
+                    - Recurrent Neural Network (RNN)
+                    - Convolutional Neural Network (CNN)
+                - Unsupervised Learning
+                    - Deep Belief Network (DBN)
+                    - Stacked Auto Encoders (SAE)
+                    - Restricted Boltzmann Machines (RBMs)
         - Convolutional Neural Network (CNN)
         - Recurrent Neural Network (RNN)
 
@@ -175,3 +199,33 @@ there are few clustering algorithms:
 - K-Medoids
 - Density Based
 - Hierarchical Clustering
+
+**Q9- What is BERT - (Bidirectional Encoder Representations from Transformers) ?** <br />
+**A9- BERT - (Bidirectional Encoder Representations from Transformers)** model released by google in 2018
+- you have take Transformer Architecture and just take the encoder and stack them you would get BERT.
+- BERT is bi-direction language means it can read from left to right and right to left.
+- BERT is pre-trained on:
+    - Masked Language Model (MLM)
+        - provide input and predict the masked word.
+        - think of asking BERT to fill in the blanks in a sentence.
+    - Next Sentence Prediction (NSP)
+        - BERT is provided two sentence A & B.
+        - BERT will predict if sentence B is next to sentence A.
+- BERT can then be fine-tuned to perform various other tasks.
+    - Named Entity Recognition (NER)
+    - Question Answering (QA)
+    - Sentence Pair Tasks
+    - Summarization
+    - Feature Extraction / Embedding
+- BERT is available in multiple models: 
+    - BERT Base 100M Parameters
+    - BERT Large 240M Parameters
+    - BERT Tiny 4M Parameters
+    - and ~24 other models
+- BERT variants:
+    - roBERTa
+    - DistiBERT
+    - ALBERT
+    - ELCTRA
+    - DeBERTa
+- BERT is the baseline in NLP.
