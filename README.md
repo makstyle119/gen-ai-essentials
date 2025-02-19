@@ -204,6 +204,8 @@ there are few clustering algorithms:
 **A9- BERT - (Bidirectional Encoder Representations from Transformers)** model released by google in 2018
 - you have take Transformer Architecture and just take the encoder and stack them you would get BERT.
 - BERT is bi-direction language means it can read from left to right and right to left.
+    - which means BERT (neuron network understand the context all over at once not like first thing first or last thing first)
+- BERT is encoder only that's mean you input a lot of text and a little will come out.
 - BERT is pre-trained on:
     - Masked Language Model (MLM)
         - provide input and predict the masked word.
