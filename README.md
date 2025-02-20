@@ -231,3 +231,7 @@ there are few clustering algorithms:
     - ELCTRA
     - DeBERTa
 - BERT is the baseline in NLP.
+
+## Papers:
+
+[ChinChilla](https://arxiv.org/pdf/2203.15556)
