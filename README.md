@@ -232,6 +232,8 @@ there are few clustering algorithms:
     - DeBERTa
 - BERT is the baseline in NLP.
 
-## Papers:
+**Q10- What is Sentence Transformers ?** <br />
+**A10- Sentence Transformers aka SBERT** is a build on top of BERT. It create a single vector for an entire sentence. when comparing similar sentence this much more performance than simply using BERT which looks at every word.
 
+## Papers:
 [ChinChilla](https://arxiv.org/pdf/2203.15556)
