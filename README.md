@@ -235,5 +235,24 @@ there are few clustering algorithms:
 **Q10- What is Sentence Transformers ?** <br />
 **A10- Sentence Transformers aka SBERT** is a build on top of BERT. It create a single vector for an entire sentence. when comparing similar sentence this much more performance than simply using BERT which looks at every word.
 
+**Q10- What is Perceptron ?** <br />
+**A10- Perceptron** is an algorithm for supervised learning of binary classifiers invented in 1943 and machine build in 1957
+- The Mark1 perceptron was design for image recognition.
+- A Perceptron is a single neuron model that was a precursor to larger neural networks.
+- **Basic Perceptron Network**
+    - A basic Perceptron has an input layer and output layer 
+    - Each layer contains a number of nodes
+    - Nodes between layers have established connections that are weighted
+        - The amount of nodes in the Input layer is determine by:
+            - The number of dimensions for the inputted vectors
+            - The input data is a collection of vectors.
+                - eg: A vector that has an X and Y would have 2 input nodes.
+            - The input layer is just connections points, it does not modify the data.
+        - The amount of nodes in the Output layer is determine by:
+            - The application of neural net
+                - Yes/No Classification would only have one output node.
+                    - (would not matters if there were 1000s of input nodes)
+        - The output nodes (and other layers) can modify (compute) new values based on inputted data.
+
 ## Papers:
 [ChinChilla](https://arxiv.org/pdf/2203.15556)
